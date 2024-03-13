@@ -1,0 +1,19 @@
+{
+    "position": "bottom-0 right-0 mr-2 ml-2 mb-4",
+    "size": "w-96 max-w-5xl p-4",
+    "color": "bg-white dark:bg-gray-800 dark:text-gray-400",
+    "border": "rounded-lg shadow-lg border dark:border-gray-500 border-stone-300 border-solid",
+    "title": "pb-2 dark:text-gray-200 font-bold text-lg flex flex-row items-center text-stone-500",
+    "buttons": "py-2",
+    "details": "py-2",
+    "close": "cursor-pointer hover:text-sky-500",
+    "accept": "cursor-pointer text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 shadow-lg shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80 font-medium rounded-lg text-sm px-4 py-2 text-center",
+    "content": "py-4 text-md",
+    "icon": {
+        "name": "icons~close",
+        "size": "h-4 w-4",
+        "class": "",
+        "color": "text-gray-800 dark:text-gray-200"
+    },
+    "link": "text-sky-500 font-semibold hover:underline"
+}

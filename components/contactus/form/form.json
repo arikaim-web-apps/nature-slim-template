@@ -1,0 +1,29 @@
+{
+    "name": {
+        "label": "Name",               
+        "placeholder": "Enter name"
+        
+    },
+    "phone": {
+        "label": "Phone",               
+        "placeholder": "Enter phone number"
+        
+    },
+    "email": {
+        "label": "Email",               
+        "placeholder": "Enter email"
+        
+    },
+    "subject": {
+        "label": "Subject",               
+        "placeholder": "Subject"
+        
+    },
+    "message": {
+        "label": "Message",
+        "placeholder": "Message"
+    },   
+    "buttons": {
+        "save": "Send"
+    }
+}

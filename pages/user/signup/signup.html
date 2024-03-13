@@ -1,0 +1,9 @@
+{% component 'current>layout' %}
+    {% set active = 'signup' %}
+    <div    
+        class="h-full flex items-center justify-items-center justify-center self-center">
+        <div class="self-center w-96 md:w-96 sm:w-full xs:w-full" id="content_box">
+            {{ component('users>users.signup',{ redirect_url: redirect_url }) }}                       
+        </div>        
+    </div>
+{% endcomponent %}

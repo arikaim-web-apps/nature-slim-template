@@ -1,0 +1,19 @@
+{
+    "class": "flex flex-col justify-between items-center overflow-y-auto",
+    "color": "bg-slate-100",
+    "size": "w-32 h-full flex-grow flex-shrink-0",
+    "content": {
+        "class": "p-2 self-stretch place-self-stretch text-center items-center"
+    },
+    "icon": {
+        "name": "icons~user",
+        "size": "h-6 w-6",
+        "class": "cursor-pointer transition duration-1000 ease-in-out",
+        "color": "text-sky-500"
+    },
+    "item": {
+        "class": "text-sm open-sans font-semibold px-4 md:p-1 lg:px-4 py-1",
+        "color": "text-gray-900 hover:text-sky-700 transition duration-700 ease-in-out",
+        "active": "text-sky-700"
+    }
+}

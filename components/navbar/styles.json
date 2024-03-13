@@ -1,0 +1,39 @@
+{
+    "size": "w-full",
+    "space": "px-4",
+    "color": "",
+    "class": "sticky top-0 z-10 lg:px-8",
+    "content": {        
+        "size": "container lg:container sm:w-full xs:w-full",
+        "align": "mx-auto",
+        "space": "p-2 rounded-xl",
+        "color": "bg-stone-50 bg-opacity-10",
+        "border": ""
+    },
+    "sidebar": {
+        "icon": "icons~menu"
+    },
+    "logo": {
+        "size": "h-8 w-8",
+        "class": "cursor-pointer transition duration-1000 ease-in-out",
+        "color": "text-sky-500"
+    },
+    "icon": {
+        "name": "icons~user",
+        "size": "h-6 w-6",
+        "class": "cursor-pointer transition duration-1000 ease-in-out",
+        "color": "text-sky-500"
+    },
+    "tools": {
+        "icon": {           
+            "size": "h-6 w-6",
+            "class": "cursor-pointer transition duration-1000 ease-in-out",
+            "color": "text-orange-600"
+        }
+    },
+    "item": {
+        "class": "text-sm open-sans font-semibold px-4 md:p-1 lg:px-4",
+        "color": "text-gray-900 hover:text-sky-700 transition duration-700 ease-in-out",
+        "active": "text-sky-700"
+    }
+}

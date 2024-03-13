@@ -1,0 +1,22 @@
+{
+    "class": "container mx-auto bg-opacity-10 rounded-xl bg-stone-50 ",
+    "logo": {
+        "size": "h-8 w-8",
+        "class": "",
+        "color": "text-gray-300"
+    },
+    "copyright": {
+        "color": "text-gray-400 text-xs"
+    },
+    "icon": {
+        "size": "h-4 w-4",
+        "class": "",
+        "color": "text-gray-400"
+    },
+    "item": {
+        "title": "mb-4 text-xs font-semibold dark:text-stone-100 text-stone-200 uppercase",
+        "class": "link link-hover flex flex-row items-center",
+        "color": "dark:text-stone-100 text-sm text-stone-200 hover:text-white transition duration-700 ease-in-out",
+        "active": "text-white"
+    }
+}

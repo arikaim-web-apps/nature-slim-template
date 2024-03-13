@@ -1,0 +1,42 @@
+<nav 
+    class="flex flex-row items-center
+    {{ styles.size }} 
+    {{ styles.space }} 
+    {{ styles.color }}
+    {{ styles.class }}">      
+    <div   
+        class="flex flex-row items-center 
+        {{ styles.content.size }}
+        {{ styles.content.align }}
+        {{ styles.content.space }}
+        {{ styles.content.color }}
+        {{ styles.content.border }}
+        {{ styles.content.class }}">
+        <btn class="px-1 cursor-pointer sidebar-button py-2 md:hidden lg:hidden" type="button">                    
+            {{ component(styles.sidebar.icon,styles.icon,'svg') }}               
+        </btn>   
+        <div class="px-2 xs:px-1 flex items-center flex-row xs:flex-grow"> 
+            <div class="rounded-full opacity-20">              
+                {{ component('material-icons~dashboard',{ size: 'h-10 w-10', color: 'text-white' },'svg') }}                
+            </div>                                                 
+            <div class="pl-2">                                              
+                <a href="{{ url('') }}" class="text-stone-200 align-baseline first-letter:text-orange-500 kaushan-script-regular inline-block align-baseline text-3xl font-medium hover:text-white transition duration-700 ease-in-out">
+                    {{ title }}
+                </a>             
+                <div 
+                    class="tracking-wide text-stone-300 text-xs font-light assistant-font -mt-1">
+                    {{ subtitle }}
+                </div>
+            </div> 
+        </div>     
+        <div class="flex flex-grow justify-end">           
+            <div class="flex flex-row items-center">               
+                {{  component('current>navbar.menu',{ 
+                        active: active, 
+                        styles: styles 
+                    }) 
+                }}                  
+            </div> 
+        </div>               
+    </div>       
+</nav>

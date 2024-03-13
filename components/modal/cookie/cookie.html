@@ -1,0 +1,44 @@
+<div 
+    tabindex="-1"
+    class="hidden fixed p-0 {{ styles.position }} {{ class }}"
+    id="{{ component_id }}"
+    fade="{{ fade|default(1000) }}"
+    interval="{{ interval|default(7) }}">
+    <div class="absolute z-50
+        {{ styles.position }} 
+        {{ styles.size }} 
+        {{ styles.color }} 
+        {{ styles.border }}">
+        <h3 class="{{ styles.title }}">
+            <div class="flex-grow">
+                {{ title }}
+            </div>          
+            <div class="modal-close-button {{ styles.close }}">
+                {{ component(styles.icon.name,styles.icon,'svg') }} 
+            </div>
+        </h3>
+        <div class="pt-2 font-bold">
+            {{ subtitle }}
+        </div> 
+        <p class="{{ styles.content }}">
+            {{ content }}
+        </p>
+        {% if link is not empty %}
+        <div class="flex flex-row items-center {{ styles.details }}">
+            <div class="px-1 font-semibold">
+                {{ details }}
+            </div>
+            <div class="px-1">
+                <a href="{{ url(link) }}" class="{{ styles.link }}">
+                    {{ link_title|default(labels.link) }}
+                </a>
+            </div>
+        </div>
+        {% endif %}
+        <div class="{{ styles.buttons }}">
+            <label class="modal-accept-button {{ styles.accept }}">
+                {{ buttons.accept }}
+            </label>           
+        </div>
+    </div>
+</div>

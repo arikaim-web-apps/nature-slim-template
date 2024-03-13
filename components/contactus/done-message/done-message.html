@@ -1,0 +1,9 @@
+{% set send_message = getOption('contactus.send.message',message) %}
+<div class="{{ class|default('p-2') }}">    
+    <div class="p-2 flex flex-row items-center flex-grow place-content-center">
+        {{ component('icons~check',{ class: 'p-1', size: 'h-8 w-8', color: 'text-green-600' },'svg') }}
+        <div class="px-2 self-center text-center text-lg font-semibold">
+            {{ send_message }}
+        </div>
+    </div>
+</div>

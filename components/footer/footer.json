@@ -1,0 +1,27 @@
+{
+    "title": "Nature",   
+    "columns": {
+        "company": {
+            "title": "Company",
+            "items": [             
+                {
+                    "title": "About",
+                    "url": "/about",
+                    "icon": "icons~info"
+                }
+            ]
+        },
+        "contact": {
+            "title": "Contact",
+            "items": [             
+                {
+                    "title": "Contact Us",
+                    "url": "/contact-us",
+                    "icon": "icons~mail"
+                }              
+            ]
+        }
+    },
+    "created": "Created with Arikaim CMS",
+    "copyright": "Copyright {{ interval }}. All Rights Reserved."
+}

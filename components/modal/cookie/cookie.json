@@ -1,0 +1,12 @@
+{
+    "title": "Cookie Policy",
+    "subtitle": "This website uses cookies.",
+    "content": "<b>We use cookies</b> to personalise content, analyse our traffic and ensure that we give you the best experience on our website.",
+    "details": "For more information see",
+    "buttons": {
+        "accept": "Accept"
+    },
+    "labels": {
+        "link": "Privacy Policy"  
+    }
+}

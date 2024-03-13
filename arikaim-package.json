@@ -1,0 +1,61 @@
+{      
+    "title": "Nature Slim",
+    "version": "1.0.0",
+    "name": "nature-slim",
+    "package-type": "template",
+    "icon": "tree",
+    "thumbnail": "nature-slim-thumbnail.jpg",
+    "private-repository": true,
+    "repository": "arikaim-web-apps/nature-slim-theme.git",
+    "require": {
+        "components": [
+            "icons",
+            "tailwind"
+        ],
+        "library": [
+            "jquery",
+            "arikaim",
+            "arikaim-ui",
+            "tailwind"
+        ]
+    },
+    "routes": [
+        {
+            "path": "/",         
+            "home": true,  
+            "page": "home",
+            "language-path": true,
+            "name": "Home"                   
+        },
+        {
+            "path": "/about",           
+            "page": "about",
+            "language-path": true,
+            "name": "About"                   
+        }
+    ],
+    "languages": [
+        "en"      
+    ],
+    "themes": [
+        "default"
+    ],
+    "default-theme": "default",
+    "include": {     
+        "components": [    
+        ],           
+        "css": [
+            "preflight.css",
+            "style.css",
+            "tailwind.min.css"
+        ],        
+        "library": [
+            "jquery",                                
+            "arikaim",
+            "arikaim-ui",
+            "fomantic:form-validation"                                   
+        ]       
+    },
+    "modules": {
+    }
+}

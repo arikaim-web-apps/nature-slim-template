@@ -1,0 +1,19 @@
+{
+    "include": {  
+        "components": [ 
+        ],           
+        "css": [ 
+        ],        
+        "library": [
+            "jquery",                                
+            "arikaim",
+            "arikaim-ui",  
+            "fomantic:form-validation",
+            "calendar:datepicker",
+            "utility:flowbite",
+            "fomantic:transition:async",                     
+            "fomantic:api:async",
+            "fomantic:dropdown:async" 
+        ]        
+    }
+}

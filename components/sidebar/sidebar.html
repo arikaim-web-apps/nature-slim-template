@@ -1,0 +1,10 @@
+<sidebar 
+    {{ id|attr('id') }} 
+    state="hidden"    
+    class="sidebar absolute z-10 hidden {{ styles.class }} 
+    {{ styles.color }} 
+    {{ styles.size }}">
+    <div class="{{ styles.content.class }}">
+        {{ component('current>sidebar.menu',{ styles: styles }) }} 
+    </div>   
+</sidebar>     

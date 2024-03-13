@@ -1,0 +1,24 @@
+{     
+    "items": {
+        "user": [
+            {
+                "title": "Login",
+                "key": "login",         
+                "url": "/login"
+            },
+            {
+                "title": "Sign Up",
+                "key": "signup",
+                "url": "/signup"
+            }
+        ],
+        "dashboard": {
+            "title": "Dashboard",
+            "key": "dashboard",
+            "url": "/user"
+        },
+        "qrcode": {
+            "title": "QR code generator"
+        }
+    }
+}

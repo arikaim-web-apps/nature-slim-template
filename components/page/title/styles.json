@@ -1,0 +1,7 @@
+{
+    "space": "p-2 mb-10",
+    "align": "mt-10 mx-auto",
+    "title": "p-1 text-5xl font-ant font-light text-center text-gray-600",
+    "text": "first-letter:text-gray-800 first-letter:font-medium ",
+    "subtitle": "text-center text-gray-400"
+}
