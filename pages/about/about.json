@@ -1,0 +1,13 @@
+{   
+    "head": {
+        "favicon": "images/favicon.png",  
+        "title": "About",
+        "description": "About",
+        "keywords": "about"
+    },
+    "title": "About us",
+    "subtitle": "",
+    "default": {
+        "about": "About us page content ..."
+    }
+}

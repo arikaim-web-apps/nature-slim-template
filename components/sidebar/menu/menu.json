@@ -1,24 +1,14 @@
 {     
-    "items": {
-        "user": [
-            {
-                "title": "Login",
-                "key": "login",         
-                "url": "/login"
-            },
-            {
-                "title": "Sign Up",
-                "key": "signup",
-                "url": "/signup"
-            }
-        ],
-        "dashboard": {
-            "title": "Dashboard",
-            "key": "dashboard",
-            "url": "/user"
+    "items": {        
+        "contactus": {
+            "title": "Contact us",
+            "key": "contactus",
+            "url": "/contact-us"
         },
-        "qrcode": {
-            "title": "QR code generator"
+        "about": {
+            "title": "About",
+            "key": "about",
+            "url": "/about"
         }
     }
 }

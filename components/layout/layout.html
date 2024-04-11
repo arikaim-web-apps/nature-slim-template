@@ -1,25 +1,22 @@
 <div
     class="relative overflow-hidden bg-cover bg-no-repeat p-12 text-center"
     style="background-image: url('{{ template_url }}images/nature-one.jpg')">
-
-    <div 
-        class="flex flex-col items-stretch {{ theme.page.color }}" 
+    <div   
+        class="mx-auto {{ theme.page.color }} {{ theme.page.size }}" 
         style="height: calc(100vh - calc(100vh - 100%))">
         {{ component('current>navbar',{ active: active }) }}    
         <div 
-            class="flex flex-row self-stretch items-stretch flex-grow {{ theme.page.color }} "> 
-            <div class="relative z-0">
+            class="flex flex-row self-stretch items-stretch flex-grow {{ theme.page.color }}"> 
+            <div class="relative z-0 ">
                 {{ component('current>sidebar',{ active: active }) }}   
             </div>       
-            <div
-                class="px-4 mt-1 min-h-screen {{ theme.page.size }} {{ theme.page.content }}">
+            <div  
+                class="flex flex-col min-h-screen w-full {{ theme.page.content }}">
                 {{ content }}                 
             </div>          
         </div>      
         {{ component('current>footer',{}) }}                                          
     </div>
-
-{{ component('current>loader',{},'html') }}    
-{{ component('current>modal.cookie',{ link: '/privacy-policy' }) }}
-
+    {{ component('current>loader',{},'html') }}    
+    {{ component('current>modal.cookie',{ link: '/privacy-policy' }) }}
 </div>

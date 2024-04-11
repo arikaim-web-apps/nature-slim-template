@@ -1,0 +1,11 @@
+{% component 'current>layout' type 'html' %}   
+    {% set active = 'about' %}           
+    {{ component('current>page.title',{ title: title }) }} 
+
+    {{  component('current>page.content',{ 
+            content_key: 'about.page',
+            class: 'mt-12 mx-auto',
+            default: default.about
+        }) 
+    }}            
+{% endcomponent %}

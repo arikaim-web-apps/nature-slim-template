@@ -16,12 +16,10 @@
     </div>             
     {% endfor %}  
 {% endfor %}
-            
-{% if service('access').isLogged() == false %}  
-    {% for item in items.user %}  
+{% for item in items %}  
     <div class="{{ styles.item.class }}">
         <a 
-            class="flex flex-row items-center {{ styles.item.color }} {{ (active == item.key) ? styles.item.active : '' }}" 
+            class="flex flex-row items-center {{ (active == item.key) ? styles.item.active : styles.item.color }}" 
             href="{{ url(item.url) }}">
             {% if item.icon is not empty %}
                 <div class="px-1">
@@ -31,18 +29,4 @@
             {{ item.title }}
         </a>
     </div>             
-    {% endfor %}    
-{% else %}
-    <div class="{{ styles.item.class }}">
-        <a 
-            class="flex flex-row items-center {{ styles.item.color }} {{ (active == item.key) ? styles.item.active : '' }}" 
-            href="{{ url(items.dashboard.url) }}">
-            {% if items.dashboard.icon is not empty %}
-                <div class="px-1">
-                    {{ component(items.dashboard.icon,styles.icon,'svg') }}  
-                </div>                           
-            {% endif %}
-            {{ items.dashboard.title }}
-        </a>
-    </div>    
-{% endif %}
+{% endfor %}    

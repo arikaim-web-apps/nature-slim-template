@@ -1,5 +1,14 @@
 {     
     "items": {
-       
+        "contactus": {
+            "title": "Contact us",
+            "key": "contactus",
+            "url": "/contact-us"
+        },
+        "about": {
+            "title": "About",
+            "key": "about",
+            "url": "/about"
+        }
     }
 }

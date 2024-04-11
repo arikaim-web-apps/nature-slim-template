@@ -1,0 +1,40 @@
+{
+    "form": {
+        "icon": {
+            "size": "h-6 w-6",
+            "color": "text-sky-500"
+        },
+        "label": "font-semibold text-sm text-stone-500 px-1",
+        "field": "flex flex-col mt-1",
+        "value": "text-gray-700",
+        "fields": "grid grid-cols-2 gap-2 md:grid-cols-2 xs:grid-cols-1",
+        "input": {
+            "group": "bg-white border border-solid rounded-lg border-stone-200 placeholder-stone-300",
+            "class": "w-full py-1.5 px-2 border border-solid rounded-lg border-stone-200 placeholder-stone-300",
+            "focus": "focus:border-sky-300 focus:border focus:border-solid focus:outline-none",
+            "hover": "hover:border-sky-300 transition duration-1000 ease-in-out"
+        },
+        "select": {
+            "white": "placeholder-stone-300 bg-white px-2 py-2 block w-full border-gray-300 border border-solid rounded text-sm disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400",
+            "default": "placeholder-stone-300 bg-gray-50 placeholder-gray-300 border px-2 py-2 border-gray-300 text-gray-900 rounded focus:ring-sky-300 focus:border-sky-300 block w-full dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-300 dark:text-white dark:focus:ring-sky-300 dark:focus:border-sky-300"
+        }
+    },
+    "search": {
+        "icon": {
+            "size": "h-5 w-5",
+            "color": "text-stone-500"
+        },
+        "input": "w-full py-1.5 pl-8 pr-24 border border-solid rounded-xl border-stone-200 placeholder-stone-300 focus:border-sky-300 focus:border focus:border-solid focus:outline-none hover:border-sky-300 transition duration-1000 ease-in-out",
+        "button": "text-white bg-gradient-to-r from-sky-400 via-sky-500 to-sky-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300 dark:focus:ring-sky-800 font-medium rounded-lg text-sm px-4 py-1 text-center"
+    },
+    "link": "text-sky-800 font-semibold hover:underline hover:text-red-700 transition duration-700 ease-in-out",
+    "page": {
+        "size": "container lg:container sm:w-full xs:w-full",
+        "color" : "",
+        "content": ""
+    },
+    "buttons": {
+        "green": "inline-flex items-center normal-case text-white hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2 text-center bg-gradient-to-r from-green-400 via-green-500 to-green-600 shadow-lg shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80",      
+        "purple": "text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+    }
+}

@@ -32,6 +32,12 @@
             "page": "about",
             "language-path": true,
             "name": "About"                   
+        },
+        {
+            "path": "/contact-us",           
+            "page": "contact-us",
+            "language-path": true,
+            "name": "contactUs"                   
         }
     ],
     "languages": [
@@ -57,5 +63,17 @@
         ]       
     },
     "modules": {
-    }
+    },
+    "content": [
+        {
+            "key": "about.page",
+            "title": "About page content",
+            "type": "text"
+        },
+        {
+            "key": "home.page",
+            "title": "Home page content",
+            "type": "text"
+        }
+    ]
 }

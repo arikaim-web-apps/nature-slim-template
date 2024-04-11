@@ -1,0 +1,22 @@
+<div class="relative">
+    <div class="flex items-center absolute {{ icon_space|default('inset-y-0 left-0 px-2') }} pointer-events-none">
+        {{ component(icon|default('icons~calendar'),theme.form.icon,'svg') }}      
+    </div>    
+    <input
+        detepicker
+        value="{{ value }}"
+        {{ rule|attr('rule') }}
+        {{ input_style|attr('style') }}
+        todayBtn="{{ todayButton|default('false') }}"
+        clearBtn="{{ clearButton|default('false') }}"
+        detepicker-title="{{ title }}"
+        autohide="{{ autohide|default('false') }}"
+        calendarWeeks="{{ calendarWeeks|default('false') }}"
+        date-format="{{ format|default("mm/dd/yyyy") }}"
+        orientation="{{ orientation|default('bottom') }}"
+        id="{{ component_id }}" 
+        type="text" 
+        name="{{ name|default('date') }}"       
+        class="pl-10 {{ theme.form.input.class }} {{ theme.form.input.hover }} {{ theme.form.input.focus }}"
+        placeholder="{{ placeholder }}">
+</div>

@@ -1,10 +1,5 @@
 {% component 'current>layout' %}
     {% set active = 'contactus' %} 
-    {{ component('current>page.title',{ title : 'Contact Us' }) }}    
-    <div class="flex flex-col items-center mt-20 mx-auto">
-        {{  component('current>contactus',{ 
-                class: 'lg:w-1/2 w-11/12 md:w-full xs:w-full sm:w-full p-8 border-2 border-indigo-100 border-solid' 
-            }) 
-        }}
-    </div>
+    {{ component('current>page.title',{ title : 'Contact Us' }) }}  
+    {{ component('current>contactus',{}) }}
 {% endcomponent %}

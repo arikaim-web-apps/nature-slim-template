@@ -1,8 +1,8 @@
 {
     "size": "w-full",
-    "space": "px-4",
+    "space": "",
     "color": "",
-    "class": "sticky top-0 z-10 lg:px-8",
+    "class": "sticky top-0 z-10 ",
     "content": {        
         "size": "container lg:container sm:w-full xs:w-full",
         "align": "mx-auto",
@@ -22,7 +22,7 @@
         "name": "icons~user",
         "size": "h-6 w-6",
         "class": "cursor-pointer transition duration-1000 ease-in-out",
-        "color": "text-sky-500"
+        "color": "text-orange-500"
     },
     "tools": {
         "icon": {           
@@ -33,7 +33,7 @@
     },
     "item": {
         "class": "text-sm open-sans font-semibold px-4 md:p-1 lg:px-4",
-        "color": "text-gray-900 hover:text-sky-700 transition duration-700 ease-in-out",
-        "active": "text-sky-700"
+        "color": "text-stone-100 hover:text-orange-500 transition duration-700 ease-in-out",
+        "active": "text-orange-500"
     }
 }

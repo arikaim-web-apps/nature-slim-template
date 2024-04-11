@@ -16,12 +16,12 @@
     },
     "subject": {
         "label": "Subject",               
-        "placeholder": "Subject"
+        "placeholder": "Enter Subject"
         
     },
     "message": {
         "label": "Message",
-        "placeholder": "Message"
+        "placeholder": "Enter Message"
     },   
     "buttons": {
         "save": "Send"
