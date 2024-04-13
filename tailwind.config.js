@@ -17,7 +17,6 @@ module.exports = {
     },
     variants: {
         extend: {
-            backgroundColor: ({ after }) => after(['disabled'])
         },
     },
     darkMode: 'class',
