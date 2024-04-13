@@ -1,0 +1,20 @@
+{% set content = content().getItem(content_key)|default(default) %}
+
+<div class="{{ space }} bg-opacity-10 bg-stone-100 border border-stone-300  rounded-xl shadow-sm sm:flex dark:bg-stone-100 dark:border-stone-200 dark:shadow-slate-700/[.7]">
+    <div class="flex-shrink-0 relative w-full rounded-t-xl overflow-hidden pt-[40%] sm:rounded-s-xl sm:max-w-60 md:rounded-se-none md:max-w-xs">
+        <img class="size-full absolute top-0 start-0 object-cover" 
+      src="{{ template_url }}images/{{ image_file }}" alt="Nature image">
+    </div>
+    <div class="flex flex-wrap">
+        <div class="p-4 flex flex-col h-full sm:p-7">
+            <h3 class="text-xl font-bold text-stone-50 dark:text-stone-50">
+                {{ content.title }}
+            </h3>
+            <p class="text-xl text-left my-8 text-stone-300 dark:text-stone-400">
+                {{ content.text }}
+            </p>
+        </div>
+    </div>
+  </div>
+
+

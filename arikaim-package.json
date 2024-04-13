@@ -71,8 +71,13 @@
             "type": "text"
         },
         {
-            "key": "home.page",
-            "title": "Home page content",
+            "key": "home.page.1",
+            "title": "Home page content card 1",
+            "type": "text"
+        },
+        {
+            "key": "home.page.2",
+            "title": "Home page content card 2",
             "type": "text"
         }
     ]

@@ -1,5 +1,5 @@
 {
-    "space": "text-stone-600 p-4",
+    "space": "p-4",
     "size": "w-2/3 xs:w-full sm:w-full md:1/2 lg:w-2/3",
-    "text": "text-stone-600 text-left bg-stone-100 bg-opacity-20 rounded"
+    "text": "text-stone-300 dark:text-stone-400 text-left bg-stone-100 bg-opacity-20 rounded"
 }
