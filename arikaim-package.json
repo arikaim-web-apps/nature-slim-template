@@ -4,7 +4,6 @@
     "name": "nature-slim",
     "package-type": "template",
     "icon": "tree",
-    "thumbnail": "nature-slim-thumbnail.jpg",
     "private-repository": true,
     "repository": "arikaim-web-apps/nature-slim-theme.git",
     "require": {
@@ -46,6 +45,7 @@
     "themes": [
         "default"
     ],
+    "thumbnail": "nature-slim-thumbnail.png",
     "default-theme": "default",
     "include": {     
         "components": [    
