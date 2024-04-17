@@ -1,4 +1,4 @@
-## Arikaim Nature Theme
+## Arikaim Nature Template
 
 #### Requirements 
   * [Arikaim CMS](https://github.com/arikaim/arikaim)
