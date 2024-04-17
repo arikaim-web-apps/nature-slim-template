@@ -1,8 +1,8 @@
 ## Arikaim Nature Slim Template
 
-<p align="center">
+
 ![image](https://github.com/arikaim-web-apps/nature-slim-template/blob/master/images/nature-slim-thumbnail.png?raw=true)
-</p>
+
 
 #### Requirements 
   * [Arikaim CMS](https://github.com/arikaim/arikaim)
