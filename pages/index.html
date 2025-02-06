@@ -5,11 +5,11 @@
         <title>{{ head.title }}</title>
         <meta charset="{{ head.charset|default('utf-8') }}">  
         <meta name="language" content="{{ current_language|default('en') }}">
-        <meta name="robots" content="noindex"/>
-        <meta name="googlebot" content="noindex"/>
-        <meta name="Cache-Control" content="{{ head.cache_control|default("max-age=31536000") }}"/>   
+        <meta name="robots" content="{{ head.robots|default(robots)|default('index,follow,all') }}"/>
+        <meta name="googlebot" content="{{ head.robots|default(robots)|default('index,follow,all') }}"/>
+        <meta name="cache-control" content="{{ head.cache_control|default("no-cache") }}"/>   
         <link rel="icon" type="image/png" href="{{ template_url }}{{ head.favicon }}">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale={{ head.minimum_scale|default("1.0") }},maximum-scale={{ head.maximum_scale|default("1.0") }}" />      
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         {{ head.html_code }}
     </head>
     <body id="page" class="open-sans">
