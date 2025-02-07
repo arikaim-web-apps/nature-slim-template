@@ -6,8 +6,8 @@
         <meta charset="{{ head.charset|default('utf-8') }}">  
         <meta name="language" content="{{ current_language|default('en') }}">
         <meta name="robots" content="{{ head.robots|default(robots)|default('index,follow,all') }}"/>
-        <meta name="googlebot" content="{{ head.robots|default(robots)|default('index,follow,all') }}"/>
-        <meta name="cache-control" content="{{ head.cache_control|default("no-cache") }}"/>   
+        <meta name="googlebot" content="{{ head.robots|default(robots)|default('index,follow,all') }}"/>      
+        <meta name="cache-control" content="{{ head.cache_control|default("no-cache, no-store, must-revalidate") }}"/>   
         <link rel="icon" type="image/png" href="{{ template_url }}{{ head.favicon }}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         {{ head.html_code }}
